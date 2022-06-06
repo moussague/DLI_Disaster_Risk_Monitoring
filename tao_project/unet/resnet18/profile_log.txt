@@ -1,0 +1,1 @@
+DLLL {"timestamp": "1654533107.961853", "datetime": "2022-06-06 16:31:47.961853", "elapsedtime": "1116.196609", "type": "LOG", "step": [], "data": {"throughput_train": 9.34037098238238, "latency_train": 107.72656411607771}}

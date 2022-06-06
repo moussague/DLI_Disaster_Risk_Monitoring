@@ -1,0 +1,17 @@
+
+name: "flood_segmentation_model"
+platform: "tensorrt_plan"
+max_batch_size: 1
+input: [
+ {
+    name: "input_1"
+    data_type: TYPE_FP32
+    format: FORMAT_NCHW
+    dims: [ 3, 512, 512 ]
+  }
+]
+output: {
+    name: "softmax_1"
+    data_type: TYPE_FP32
+    dims: [ 512, 512, 2 ]
+  }

@@ -1,0 +1,10 @@
+net-scale-factor=0.00784313725490196
+offsets=127.5;127.5;127.5
+infer-dims=3;512;512
+tlt-model-key=my_model_key
+network-type=2
+num-detected-classes=2
+model-color-format=1
+segmentation-threshold=0.0
+output-blob-names=softmax_1
+segmentation-output-order=1
